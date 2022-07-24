@@ -1,0 +1,38 @@
+[2022-07-23 21:41:22,925] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: pipeline_dag.run_etl_task manual__2022-07-23T21:41:14.439703+00:00 [queued]>
+[2022-07-23 21:41:22,945] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: pipeline_dag.run_etl_task manual__2022-07-23T21:41:14.439703+00:00 [queued]>
+[2022-07-23 21:41:22,945] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-23 21:41:22,945] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-07-23 21:41:22,945] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-23 21:41:22,974] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): run_etl_task> on 2022-07-23 21:41:14.439703+00:00
+[2022-07-23 21:41:22,982] {standard_task_runner.py:52} INFO - Started process 6544 to run task
+[2022-07-23 21:41:22,991] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'pipeline_dag', 'run_etl_task', 'manual__2022-07-23T21:41:14.439703+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_dag.py', '--cfg-path', '/tmp/tmp0yb87yk2', '--error-file', '/tmp/tmps95owehg']
+[2022-07-23 21:41:22,997] {standard_task_runner.py:80} INFO - Job 43: Subtask run_etl_task
+[2022-07-23 21:41:23,141] {task_command.py:371} INFO - Running <TaskInstance: pipeline_dag.run_etl_task manual__2022-07-23T21:41:14.439703+00:00 [running]> on host aa8df9e9669a
+[2022-07-23 21:41:23,283] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=pipeline_dag
+AIRFLOW_CTX_TASK_ID=run_etl_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-23T21:41:14.439703+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-23T21:41:14.439703+00:00
+[2022-07-23 21:41:23,288] {logging_mixin.py:115} INFO - >>> Running 'etl' function. Logged at 2022-07-23 21:41:23.288766+00:00
+[2022-07-23 21:41:23,288] {logging_mixin.py:115} INFO - >>> Running 'extract' function. Logged at 2022-07-23 21:41:23.288982+00:00
+[2022-07-23 21:41:23,289] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/pipeline_dag.py", line 23, in wrapper
+    to_execute = func(*args, **kwargs)
+  File "/opt/airflow/dags/pipeline_dag.py", line 109, in etl
+    df = extract()
+  File "/opt/airflow/dags/pipeline_dag.py", line 23, in wrapper
+    to_execute = func(*args, **kwargs)
+TypeError: extract() missing 2 required positional arguments: 'source_table' and 'engine'
+[2022-07-23 21:41:23,305] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=pipeline_dag, task_id=run_etl_task, execution_date=20220723T214114, start_date=20220723T214122, end_date=20220723T214123
+[2022-07-23 21:41:23,327] {standard_task_runner.py:97} ERROR - Failed to execute job 43 for task run_etl_task (extract() missing 2 required positional arguments: 'source_table' and 'engine'; 6544)
+[2022-07-23 21:41:23,366] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-23 21:41:23,457] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,139 @@
+[2022-07-23 21:56:54,960] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: pipeline_dag.run_etl_task manual__2022-07-23T21:56:52.827581+00:00 [queued]>
+[2022-07-23 21:56:54,979] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: pipeline_dag.run_etl_task manual__2022-07-23T21:56:52.827581+00:00 [queued]>
+[2022-07-23 21:56:54,979] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-23 21:56:54,979] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-07-23 21:56:54,979] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-23 21:56:55,003] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): run_etl_task> on 2022-07-23 21:56:52.827581+00:00
+[2022-07-23 21:56:55,011] {standard_task_runner.py:52} INFO - Started process 7204 to run task
+[2022-07-23 21:56:55,022] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'pipeline_dag', 'run_etl_task', 'manual__2022-07-23T21:56:52.827581+00:00', '--job-id', '47', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_dag.py', '--cfg-path', '/tmp/tmpstttyb6n', '--error-file', '/tmp/tmpncu89pqv']
+[2022-07-23 21:56:55,024] {standard_task_runner.py:80} INFO - Job 47: Subtask run_etl_task
+[2022-07-23 21:56:55,206] {task_command.py:371} INFO - Running <TaskInstance: pipeline_dag.run_etl_task manual__2022-07-23T21:56:52.827581+00:00 [running]> on host aa8df9e9669a
+[2022-07-23 21:56:55,291] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=pipeline_dag
+AIRFLOW_CTX_TASK_ID=run_etl_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-23T21:56:52.827581+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-23T21:56:52.827581+00:00
+[2022-07-23 21:56:55,292] {logging_mixin.py:115} INFO - >>> Running 'etl' function. Logged at 2022-07-23 21:56:55.292335+00:00
+[2022-07-23 21:56:55,292] {logging_mixin.py:115} INFO - >>> Running 'extract' function. Logged at 2022-07-23 21:56:55.292478+00:00
+[2022-07-23 21:56:55,292] {logging_mixin.py:115} INFO - >>> Running 'connect_db' function. Logged at 2022-07-23 21:56:55.292562+00:00
+[2022-07-23 21:56:55,292] {logging_mixin.py:115} INFO - Connecting to DB
+[2022-07-23 21:56:55,293] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3243, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 371, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 584, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "127.0.0.1", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/pipeline_dag.py", line 23, in wrapper
+    to_execute = func(*args, **kwargs)
+  File "/opt/airflow/dags/pipeline_dag.py", line 110, in etl
+    df = extract(source_table)
+  File "/opt/airflow/dags/pipeline_dag.py", line 23, in wrapper
+    to_execute = func(*args, **kwargs)
+  File "/opt/airflow/dags/pipeline_dag.py", line 77, in extract
+    engine = connect_db(src_user, src_pwd, src_host, src_port, src_db)
+  File "/opt/airflow/dags/pipeline_dag.py", line 23, in wrapper
+    to_execute = func(*args, **kwargs)
+  File "/opt/airflow/dags/pipeline_dag.py", line 71, in connect_db
+    engine.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3197, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3276, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3247, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2101, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3243, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 371, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 584, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2022-07-23 21:56:55,311] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=pipeline_dag, task_id=run_etl_task, execution_date=20220723T215652, start_date=20220723T215654, end_date=20220723T215655
+[2022-07-23 21:56:55,321] {standard_task_runner.py:97} ERROR - Failed to execute job 47 for task run_etl_task ((psycopg2.OperationalError) connection to server at "127.0.0.1", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8); 7204)
+[2022-07-23 21:56:55,337] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-23 21:56:55,379] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

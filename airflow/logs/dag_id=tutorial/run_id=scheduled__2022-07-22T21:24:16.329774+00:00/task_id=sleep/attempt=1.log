@@ -1,0 +1,28 @@
+[2022-07-23 21:25:31,831] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: tutorial.sleep scheduled__2022-07-22T21:24:16.329774+00:00 [queued]>
+[2022-07-23 21:25:31,870] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: tutorial.sleep scheduled__2022-07-22T21:24:16.329774+00:00 [queued]>
+[2022-07-23 21:25:31,871] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-23 21:25:31,871] {taskinstance.py:1377} INFO - Starting attempt 1 of 4
+[2022-07-23 21:25:31,871] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-23 21:25:31,908] {taskinstance.py:1397} INFO - Executing <Task(BashOperator): sleep> on 2022-07-22 21:24:16.329774+00:00
+[2022-07-23 21:25:31,912] {standard_task_runner.py:52} INFO - Started process 5869 to run task
+[2022-07-23 21:25:31,927] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'tutorial', 'sleep', 'scheduled__2022-07-22T21:24:16.329774+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/test.py', '--cfg-path', '/tmp/tmpypxact9j', '--error-file', '/tmp/tmpec2wmv7d']
+[2022-07-23 21:25:31,928] {standard_task_runner.py:80} INFO - Job 39: Subtask sleep
+[2022-07-23 21:25:32,105] {task_command.py:371} INFO - Running <TaskInstance: tutorial.sleep scheduled__2022-07-22T21:24:16.329774+00:00 [running]> on host aa8df9e9669a
+[2022-07-23 21:25:32,318] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=sleep
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-22T21:24:16.329774+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-22T21:24:16.329774+00:00
+[2022-07-23 21:25:32,322] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-07-23 21:25:32,324] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'sleep 5']
+[2022-07-23 21:25:32,381] {subprocess.py:85} INFO - Output:
+[2022-07-23 21:25:37,395] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-07-23 21:25:37,568] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=tutorial, task_id=sleep, execution_date=20220722T212416, start_date=20220723T212531, end_date=20220723T212537
+[2022-07-23 21:25:37,725] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-23 21:25:37,841] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

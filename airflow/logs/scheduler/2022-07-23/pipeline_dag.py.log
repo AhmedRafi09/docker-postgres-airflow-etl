@@ -1,0 +1,1208 @@
+[2022-07-23 20:37:58,956] {processor.py:153} INFO - Started process (PID=6876) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:37:58,957] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:37:58,967] {logging_mixin.py:115} INFO - [2022-07-23 20:37:58,967] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:38:02,081] {logging_mixin.py:115} INFO - [2022-07-23 20:38:02,073] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:38:02,082] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:38:02,150] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 3.197 seconds
+[2022-07-23 20:39:03,027] {processor.py:153} INFO - Started process (PID=6958) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:39:03,033] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:39:03,034] {logging_mixin.py:115} INFO - [2022-07-23 20:39:03,033] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:39:03,343] {logging_mixin.py:115} INFO - [2022-07-23 20:39:03,342] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:39:03,343] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:39:03,362] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.338 seconds
+[2022-07-23 20:40:03,586] {processor.py:153} INFO - Started process (PID=7037) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:40:03,588] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:40:03,589] {logging_mixin.py:115} INFO - [2022-07-23 20:40:03,589] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:40:03,853] {logging_mixin.py:115} INFO - [2022-07-23 20:40:03,851] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:40:03,853] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:40:03,869] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.290 seconds
+[2022-07-23 20:41:04,470] {processor.py:153} INFO - Started process (PID=7126) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:41:04,470] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:41:04,471] {logging_mixin.py:115} INFO - [2022-07-23 20:41:04,471] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:41:04,642] {logging_mixin.py:115} INFO - [2022-07-23 20:41:04,640] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:41:04,642] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:41:04,664] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.197 seconds
+[2022-07-23 20:42:05,214] {processor.py:153} INFO - Started process (PID=7207) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:42:05,217] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:42:05,218] {logging_mixin.py:115} INFO - [2022-07-23 20:42:05,218] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:42:05,452] {logging_mixin.py:115} INFO - [2022-07-23 20:42:05,451] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:42:05,453] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:42:05,486] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.274 seconds
+[2022-07-23 20:43:06,218] {processor.py:153} INFO - Started process (PID=7288) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:43:06,229] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:43:06,229] {logging_mixin.py:115} INFO - [2022-07-23 20:43:06,229] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:43:06,990] {logging_mixin.py:115} INFO - [2022-07-23 20:43:06,985] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:43:06,990] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:43:07,093] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.893 seconds
+[2022-07-23 20:44:07,273] {processor.py:153} INFO - Started process (PID=7360) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:44:07,274] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:44:07,275] {logging_mixin.py:115} INFO - [2022-07-23 20:44:07,274] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:44:07,455] {logging_mixin.py:115} INFO - [2022-07-23 20:44:07,454] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:44:07,456] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:44:07,480] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.218 seconds
+[2022-07-23 20:44:28,473] {processor.py:153} INFO - Started process (PID=7390) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:44:28,474] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:44:28,474] {logging_mixin.py:115} INFO - [2022-07-23 20:44:28,474] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:44:28,666] {logging_mixin.py:115} INFO - [2022-07-23 20:44:28,664] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:44:28,666] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:44:28,682] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.211 seconds
+[2022-07-23 20:45:29,036] {processor.py:153} INFO - Started process (PID=7471) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:45:29,048] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:45:29,048] {logging_mixin.py:115} INFO - [2022-07-23 20:45:29,048] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:45:29,623] {logging_mixin.py:115} INFO - [2022-07-23 20:45:29,621] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:45:29,623] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:45:29,697] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.672 seconds
+[2022-07-23 20:46:30,028] {processor.py:153} INFO - Started process (PID=7552) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:46:30,028] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:46:30,029] {logging_mixin.py:115} INFO - [2022-07-23 20:46:30,029] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:46:30,225] {logging_mixin.py:115} INFO - [2022-07-23 20:46:30,223] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:46:30,225] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:46:30,240] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.216 seconds
+[2022-07-23 20:47:31,284] {processor.py:153} INFO - Started process (PID=7630) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:47:31,307] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:47:31,308] {logging_mixin.py:115} INFO - [2022-07-23 20:47:31,308] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:47:33,205] {logging_mixin.py:115} INFO - [2022-07-23 20:47:33,184] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:47:33,205] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:47:33,333] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 2.051 seconds
+[2022-07-23 20:48:34,120] {processor.py:153} INFO - Started process (PID=7704) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:48:34,121] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:48:34,122] {logging_mixin.py:115} INFO - [2022-07-23 20:48:34,122] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:48:34,291] {logging_mixin.py:115} INFO - [2022-07-23 20:48:34,289] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:48:34,291] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:48:34,308] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.190 seconds
+[2022-07-23 20:49:34,402] {processor.py:153} INFO - Started process (PID=7785) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:49:34,402] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:49:34,403] {logging_mixin.py:115} INFO - [2022-07-23 20:49:34,403] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:49:34,579] {logging_mixin.py:115} INFO - [2022-07-23 20:49:34,578] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:49:34,580] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:49:34,597] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.199 seconds
+[2022-07-23 20:49:46,198] {processor.py:153} INFO - Started process (PID=7803) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:49:46,198] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:49:46,199] {logging_mixin.py:115} INFO - [2022-07-23 20:49:46,199] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:49:46,403] {logging_mixin.py:115} INFO - [2022-07-23 20:49:46,402] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:49:46,403] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:49:46,418] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.227 seconds
+[2022-07-23 20:50:46,468] {processor.py:153} INFO - Started process (PID=7882) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:50:46,473] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:50:46,473] {logging_mixin.py:115} INFO - [2022-07-23 20:50:46,473] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:50:46,842] {logging_mixin.py:115} INFO - [2022-07-23 20:50:46,837] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:50:46,842] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:50:46,871] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.405 seconds
+[2022-07-23 20:51:46,968] {processor.py:153} INFO - Started process (PID=7962) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:51:46,969] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:51:46,969] {logging_mixin.py:115} INFO - [2022-07-23 20:51:46,969] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:51:47,161] {logging_mixin.py:115} INFO - [2022-07-23 20:51:47,160] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:51:47,161] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:51:47,181] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.216 seconds
+[2022-07-23 20:52:48,103] {processor.py:153} INFO - Started process (PID=8052) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:52:48,104] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:52:48,104] {logging_mixin.py:115} INFO - [2022-07-23 20:52:48,104] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:52:48,271] {logging_mixin.py:115} INFO - [2022-07-23 20:52:48,270] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:52:48,271] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:52:48,286] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.186 seconds
+[2022-07-23 20:53:49,156] {processor.py:153} INFO - Started process (PID=8133) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:53:49,160] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:53:49,160] {logging_mixin.py:115} INFO - [2022-07-23 20:53:49,160] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:53:49,436] {logging_mixin.py:115} INFO - [2022-07-23 20:53:49,435] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:53:49,437] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:53:49,452] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.316 seconds
+[2022-07-23 20:54:50,204] {processor.py:153} INFO - Started process (PID=8213) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:54:50,204] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:54:50,205] {logging_mixin.py:115} INFO - [2022-07-23 20:54:50,205] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:54:50,370] {logging_mixin.py:115} INFO - [2022-07-23 20:54:50,368] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:54:50,370] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:54:50,387] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.186 seconds
+[2022-07-23 20:55:51,060] {processor.py:153} INFO - Started process (PID=8284) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:55:51,060] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:55:51,061] {logging_mixin.py:115} INFO - [2022-07-23 20:55:51,061] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:55:51,224] {logging_mixin.py:115} INFO - [2022-07-23 20:55:51,223] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:55:51,224] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:55:51,241] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.184 seconds
+[2022-07-23 20:56:52,086] {processor.py:153} INFO - Started process (PID=8365) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:56:52,089] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:56:52,089] {logging_mixin.py:115} INFO - [2022-07-23 20:56:52,089] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:56:52,930] {logging_mixin.py:115} INFO - [2022-07-23 20:56:52,929] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:56:52,931] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:56:52,994] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.923 seconds
+[2022-07-23 20:57:53,627] {processor.py:153} INFO - Started process (PID=8437) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:57:53,627] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:57:53,628] {logging_mixin.py:115} INFO - [2022-07-23 20:57:53,628] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:57:53,807] {logging_mixin.py:115} INFO - [2022-07-23 20:57:53,806] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:57:53,807] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:57:53,825] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.201 seconds
+[2022-07-23 20:58:54,420] {processor.py:153} INFO - Started process (PID=8517) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:58:54,424] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:58:54,424] {logging_mixin.py:115} INFO - [2022-07-23 20:58:54,424] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:58:54,856] {logging_mixin.py:115} INFO - [2022-07-23 20:58:54,854] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:58:54,856] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:58:54,874] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.461 seconds
+[2022-07-23 20:59:55,687] {processor.py:153} INFO - Started process (PID=8597) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:59:55,688] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 20:59:55,689] {logging_mixin.py:115} INFO - [2022-07-23 20:59:55,688] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:59:55,859] {logging_mixin.py:115} INFO - [2022-07-23 20:59:55,858] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 20:59:55,859] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 20:59:55,877] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.193 seconds
+[2022-07-23 21:00:56,326] {processor.py:153} INFO - Started process (PID=8678) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:00:56,349] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:00:56,350] {logging_mixin.py:115} INFO - [2022-07-23 21:00:56,350] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:00:58,448] {logging_mixin.py:115} INFO - [2022-07-23 21:00:58,447] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:00:58,448] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:00:58,705] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 2.398 seconds
+[2022-07-23 21:01:59,657] {processor.py:153} INFO - Started process (PID=8750) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:01:59,658] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:01:59,659] {logging_mixin.py:115} INFO - [2022-07-23 21:01:59,659] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:01:59,896] {logging_mixin.py:115} INFO - [2022-07-23 21:01:59,894] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:01:59,896] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:01:59,918] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.274 seconds
+[2022-07-23 21:03:00,249] {processor.py:153} INFO - Started process (PID=8831) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:03:00,252] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:03:00,252] {logging_mixin.py:115} INFO - [2022-07-23 21:03:00,252] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:03:00,444] {logging_mixin.py:115} INFO - [2022-07-23 21:03:00,443] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:03:00,444] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:03:00,462] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.216 seconds
+[2022-07-23 21:04:01,305] {processor.py:153} INFO - Started process (PID=8910) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:04:01,306] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:04:01,306] {logging_mixin.py:115} INFO - [2022-07-23 21:04:01,306] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:04:01,605] {logging_mixin.py:115} INFO - [2022-07-23 21:04:01,603] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:04:01,609] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:04:01,638] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.336 seconds
+[2022-07-23 21:05:02,228] {processor.py:153} INFO - Started process (PID=8990) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:05:02,230] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:05:02,230] {logging_mixin.py:115} INFO - [2022-07-23 21:05:02,230] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:05:02,423] {logging_mixin.py:115} INFO - [2022-07-23 21:05:02,422] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:05:02,424] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:05:02,442] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.216 seconds
+[2022-07-23 21:06:03,019] {processor.py:153} INFO - Started process (PID=9079) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:06:03,025] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:06:03,025] {logging_mixin.py:115} INFO - [2022-07-23 21:06:03,025] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:06:03,722] {logging_mixin.py:115} INFO - [2022-07-23 21:06:03,716] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:06:03,722] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:06:03,753] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.749 seconds
+[2022-07-23 21:07:03,848] {processor.py:153} INFO - Started process (PID=9158) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:07:03,861] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:07:03,862] {logging_mixin.py:115} INFO - [2022-07-23 21:07:03,861] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:07:04,808] {logging_mixin.py:115} INFO - [2022-07-23 21:07:04,807] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:07:04,809] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:07:04,842] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 1.034 seconds
+[2022-07-23 21:08:05,546] {processor.py:153} INFO - Started process (PID=9239) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:08:05,559] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:08:05,560] {logging_mixin.py:115} INFO - [2022-07-23 21:08:05,560] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:08:08,069] {logging_mixin.py:115} INFO - [2022-07-23 21:08:08,066] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:08:08,069] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:08:08,112] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 2.612 seconds
+[2022-07-23 21:09:08,242] {processor.py:153} INFO - Started process (PID=9314) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:09:08,261] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:09:08,262] {logging_mixin.py:115} INFO - [2022-07-23 21:09:08,262] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:09:09,424] {logging_mixin.py:115} INFO - [2022-07-23 21:09:09,416] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:09:09,424] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:09:09,502] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 1.279 seconds
+[2022-07-23 21:10:09,596] {processor.py:153} INFO - Started process (PID=9386) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:10:09,599] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:10:09,600] {logging_mixin.py:115} INFO - [2022-07-23 21:10:09,600] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:10:09,974] {logging_mixin.py:115} INFO - [2022-07-23 21:10:09,973] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:10:09,974] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:10:09,990] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.403 seconds
+[2022-07-23 21:11:10,269] {processor.py:153} INFO - Started process (PID=9475) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:11:10,271] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:11:10,271] {logging_mixin.py:115} INFO - [2022-07-23 21:11:10,271] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:11:10,592] {logging_mixin.py:115} INFO - [2022-07-23 21:11:10,590] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:11:10,592] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:11:10,608] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.346 seconds
+[2022-07-23 21:12:11,174] {processor.py:153} INFO - Started process (PID=9556) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:12:11,196] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:12:11,196] {logging_mixin.py:115} INFO - [2022-07-23 21:12:11,196] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:12:12,574] {logging_mixin.py:115} INFO - [2022-07-23 21:12:12,573] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:12:12,598] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:12:12,731] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 1.631 seconds
+[2022-07-23 21:13:12,943] {processor.py:153} INFO - Started process (PID=9637) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:13:12,948] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:13:12,948] {logging_mixin.py:115} INFO - [2022-07-23 21:13:12,948] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:13:13,370] {logging_mixin.py:115} INFO - [2022-07-23 21:13:13,369] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:13:13,370] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:13:13,386] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.490 seconds
+[2022-07-23 21:14:13,914] {processor.py:153} INFO - Started process (PID=9718) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:14:13,921] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:14:13,922] {logging_mixin.py:115} INFO - [2022-07-23 21:14:13,921] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:14:15,434] {logging_mixin.py:115} INFO - [2022-07-23 21:14:15,428] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:14:15,434] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:14:15,485] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 1.609 seconds
+[2022-07-23 21:15:15,826] {processor.py:153} INFO - Started process (PID=9799) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:15:15,827] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:15:15,827] {logging_mixin.py:115} INFO - [2022-07-23 21:15:15,827] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:15:16,742] {logging_mixin.py:115} INFO - [2022-07-23 21:15:16,741] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:15:16,742] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:15:16,758] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 1.009 seconds
+[2022-07-23 21:16:17,387] {processor.py:153} INFO - Started process (PID=9881) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:16:17,388] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:16:17,388] {logging_mixin.py:115} INFO - [2022-07-23 21:16:17,388] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:16:17,808] {logging_mixin.py:115} INFO - [2022-07-23 21:16:17,807] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:16:17,808] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:16:17,833] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.465 seconds
+[2022-07-23 21:17:18,310] {processor.py:153} INFO - Started process (PID=9953) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:17:18,318] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:17:18,318] {logging_mixin.py:115} INFO - [2022-07-23 21:17:18,318] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:17:20,128] {logging_mixin.py:115} INFO - [2022-07-23 21:17:20,083] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:17:20,128] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:17:20,280] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 1.994 seconds
+[2022-07-23 21:18:20,614] {processor.py:153} INFO - Started process (PID=10026) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:18:20,618] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:18:20,619] {logging_mixin.py:115} INFO - [2022-07-23 21:18:20,619] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:18:21,390] {logging_mixin.py:115} INFO - [2022-07-23 21:18:21,386] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:18:21,390] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:18:21,426] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.814 seconds
+[2022-07-23 21:19:21,493] {processor.py:153} INFO - Started process (PID=10097) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:19:21,496] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:19:21,497] {logging_mixin.py:115} INFO - [2022-07-23 21:19:21,497] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:19:21,939] {logging_mixin.py:115} INFO - [2022-07-23 21:19:21,937] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:19:21,939] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:19:21,976] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.489 seconds
+[2022-07-23 21:20:22,487] {processor.py:153} INFO - Started process (PID=10168) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:20:22,490] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:20:22,490] {logging_mixin.py:115} INFO - [2022-07-23 21:20:22,490] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:20:22,914] {logging_mixin.py:115} INFO - [2022-07-23 21:20:22,912] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:20:22,914] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:20:22,948] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.467 seconds
+[2022-07-23 21:21:23,702] {processor.py:153} INFO - Started process (PID=10249) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:21:23,705] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:21:23,705] {logging_mixin.py:115} INFO - [2022-07-23 21:21:23,705] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:21:23,898] {logging_mixin.py:115} INFO - [2022-07-23 21:21:23,896] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:21:23,898] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:21:23,916] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.217 seconds
+[2022-07-23 21:22:24,219] {processor.py:153} INFO - Started process (PID=10331) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:22:24,235] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:22:24,236] {logging_mixin.py:115} INFO - [2022-07-23 21:22:24,236] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:22:25,248] {logging_mixin.py:115} INFO - [2022-07-23 21:22:25,247] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:22:25,248] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:22:25,328] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 1.153 seconds
+[2022-07-23 21:23:25,679] {processor.py:153} INFO - Started process (PID=10402) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:23:25,679] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:23:25,680] {logging_mixin.py:115} INFO - [2022-07-23 21:23:25,680] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:23:25,892] {logging_mixin.py:115} INFO - [2022-07-23 21:23:25,891] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:23:25,892] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:23:25,910] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.234 seconds
+[2022-07-23 21:24:26,084] {processor.py:153} INFO - Started process (PID=10482) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:24:26,092] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:24:26,092] {logging_mixin.py:115} INFO - [2022-07-23 21:24:26,092] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:24:26,399] {logging_mixin.py:115} INFO - [2022-07-23 21:24:26,397] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:24:26,399] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:24:26,439] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.358 seconds
+[2022-07-23 21:25:26,979] {processor.py:153} INFO - Started process (PID=10555) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:25:26,981] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:25:26,981] {logging_mixin.py:115} INFO - [2022-07-23 21:25:26,981] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:25:27,377] {logging_mixin.py:115} INFO - [2022-07-23 21:25:27,375] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:25:27,377] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:25:27,398] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.427 seconds
+[2022-07-23 21:26:28,110] {processor.py:153} INFO - Started process (PID=10628) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:26:28,113] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:26:28,114] {logging_mixin.py:115} INFO - [2022-07-23 21:26:28,114] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:26:28,280] {logging_mixin.py:115} INFO - [2022-07-23 21:26:28,279] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:26:28,280] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:26:28,306] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.198 seconds
+[2022-07-23 21:27:28,438] {processor.py:153} INFO - Started process (PID=10710) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:27:28,439] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:27:28,439] {logging_mixin.py:115} INFO - [2022-07-23 21:27:28,439] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:27:28,636] {logging_mixin.py:115} INFO - [2022-07-23 21:27:28,634] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:27:28,636] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:27:28,656] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.221 seconds
+[2022-07-23 21:28:29,367] {processor.py:153} INFO - Started process (PID=10792) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:28:29,383] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:28:29,384] {logging_mixin.py:115} INFO - [2022-07-23 21:28:29,384] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:28:30,421] {logging_mixin.py:115} INFO - [2022-07-23 21:28:30,419] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:28:30,421] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:28:30,491] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 1.146 seconds
+[2022-07-23 21:29:30,619] {processor.py:153} INFO - Started process (PID=10874) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:29:30,622] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:29:30,623] {logging_mixin.py:115} INFO - [2022-07-23 21:29:30,623] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:29:31,015] {logging_mixin.py:115} INFO - [2022-07-23 21:29:31,014] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:29:31,016] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:29:31,120] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.513 seconds
+[2022-07-23 21:30:31,306] {processor.py:153} INFO - Started process (PID=10947) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:30:31,309] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:30:31,310] {logging_mixin.py:115} INFO - [2022-07-23 21:30:31,310] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:30:32,832] {logging_mixin.py:115} INFO - [2022-07-23 21:30:32,811] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:30:32,838] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:30:33,130] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 1.833 seconds
+[2022-07-23 21:31:34,246] {processor.py:153} INFO - Started process (PID=11012) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:31:34,247] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:31:34,248] {logging_mixin.py:115} INFO - [2022-07-23 21:31:34,248] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:31:34,424] {logging_mixin.py:115} INFO - [2022-07-23 21:31:34,422] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:31:34,424] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:31:34,442] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.198 seconds
+[2022-07-23 21:32:34,694] {processor.py:153} INFO - Started process (PID=11084) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:32:34,697] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:32:34,698] {logging_mixin.py:115} INFO - [2022-07-23 21:32:34,697] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:32:35,004] {logging_mixin.py:115} INFO - [2022-07-23 21:32:35,003] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:32:35,004] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:32:35,021] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.330 seconds
+[2022-07-23 21:33:35,617] {processor.py:153} INFO - Started process (PID=11173) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:33:35,621] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:33:35,621] {logging_mixin.py:115} INFO - [2022-07-23 21:33:35,621] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:33:35,809] {logging_mixin.py:115} INFO - [2022-07-23 21:33:35,808] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:33:35,809] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:33:35,826] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.212 seconds
+[2022-07-23 21:34:36,591] {processor.py:153} INFO - Started process (PID=11254) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:34:36,594] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:34:36,594] {logging_mixin.py:115} INFO - [2022-07-23 21:34:36,594] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:34:36,775] {logging_mixin.py:115} INFO - [2022-07-23 21:34:36,774] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import dotenv_values
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:34:36,776] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:34:36,793] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.205 seconds
+[2022-07-23 21:35:25,794] {processor.py:153} INFO - Started process (PID=11319) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:35:25,795] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:35:25,796] {logging_mixin.py:115} INFO - [2022-07-23 21:35:25,796] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:35:25,989] {logging_mixin.py:115} INFO - [2022-07-23 21:35:25,987] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:35:25,989] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:35:26,011] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.220 seconds
+[2022-07-23 21:36:26,068] {processor.py:153} INFO - Started process (PID=11401) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:36:26,068] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:36:26,068] {logging_mixin.py:115} INFO - [2022-07-23 21:36:26,068] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:36:26,237] {logging_mixin.py:115} INFO - [2022-07-23 21:36:26,236] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:36:26,237] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:36:26,255] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.190 seconds
+[2022-07-23 21:37:26,501] {processor.py:153} INFO - Started process (PID=11483) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:37:26,501] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:37:26,502] {logging_mixin.py:115} INFO - [2022-07-23 21:37:26,502] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:37:26,886] {logging_mixin.py:115} INFO - [2022-07-23 21:37:26,885] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:37:26,887] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:37:26,918] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.425 seconds
+[2022-07-23 21:38:27,015] {processor.py:153} INFO - Started process (PID=11565) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:38:27,017] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:38:27,017] {logging_mixin.py:115} INFO - [2022-07-23 21:38:27,017] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:38:27,214] {logging_mixin.py:115} INFO - [2022-07-23 21:38:27,213] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 7, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2022-07-23 21:38:27,214] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:38:27,230] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.217 seconds
+[2022-07-23 21:39:18,522] {processor.py:153} INFO - Started process (PID=11636) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:39:18,523] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:39:18,523] {logging_mixin.py:115} INFO - [2022-07-23 21:39:18,523] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:39:19,163] {logging_mixin.py:115} INFO - [2022-07-23 21:39:19,162] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 49, in <module>
+    trgt_user = CONFIG["POSTGRES_TRGT_USER"]
+NameError: name 'CONFIG' is not defined
+[2022-07-23 21:39:19,164] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:39:19,196] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.681 seconds
+[2022-07-23 21:40:20,046] {processor.py:153} INFO - Started process (PID=11727) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:40:20,049] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:40:20,049] {logging_mixin.py:115} INFO - [2022-07-23 21:40:20,049] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:40:20,288] {logging_mixin.py:115} INFO - [2022-07-23 21:40:20,287] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_dag.py", line 49, in <module>
+    trgt_user = CONFIG["POSTGRES_TRGT_USER"]
+NameError: name 'CONFIG' is not defined
+[2022-07-23 21:40:20,288] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:40:20,306] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.267 seconds
+[2022-07-23 21:40:46,145] {processor.py:153} INFO - Started process (PID=11756) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:40:46,146] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:40:46,146] {logging_mixin.py:115} INFO - [2022-07-23 21:40:46,146] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:40:46,314] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:40:46,401] {logging_mixin.py:115} INFO - [2022-07-23 21:40:46,401] {manager.py:508} INFO - Created Permission View: can read on DAG:pipeline_dag
+[2022-07-23 21:40:46,407] {logging_mixin.py:115} INFO - [2022-07-23 21:40:46,407] {manager.py:508} INFO - Created Permission View: can edit on DAG:pipeline_dag
+[2022-07-23 21:40:46,413] {logging_mixin.py:115} INFO - [2022-07-23 21:40:46,412] {manager.py:508} INFO - Created Permission View: can delete on DAG:pipeline_dag
+[2022-07-23 21:40:46,414] {logging_mixin.py:115} INFO - [2022-07-23 21:40:46,413] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:40:46,422] {logging_mixin.py:115} INFO - [2022-07-23 21:40:46,422] {dag.py:2439} INFO - Creating ORM DAG for pipeline_dag
+[2022-07-23 21:40:46,431] {logging_mixin.py:115} INFO - [2022-07-23 21:40:46,431] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:40:46,441] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.298 seconds
+[2022-07-23 21:41:46,560] {processor.py:153} INFO - Started process (PID=11829) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:41:46,576] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:41:46,576] {logging_mixin.py:115} INFO - [2022-07-23 21:41:46,576] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:41:47,548] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:41:47,650] {logging_mixin.py:115} INFO - [2022-07-23 21:41:47,649] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:41:47,726] {logging_mixin.py:115} INFO - [2022-07-23 21:41:47,726] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:41:47,770] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 1.213 seconds
+[2022-07-23 21:42:48,038] {processor.py:153} INFO - Started process (PID=11902) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:42:48,042] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:42:48,043] {logging_mixin.py:115} INFO - [2022-07-23 21:42:48,043] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:42:48,478] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:42:48,620] {logging_mixin.py:115} INFO - [2022-07-23 21:42:48,614] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:42:48,677] {logging_mixin.py:115} INFO - [2022-07-23 21:42:48,676] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:42:48,719] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.684 seconds
+[2022-07-23 21:43:44,221] {processor.py:153} INFO - Started process (PID=11984) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:43:44,224] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:43:44,224] {logging_mixin.py:115} INFO - [2022-07-23 21:43:44,224] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:43:44,935] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:43:44,986] {logging_mixin.py:115} INFO - [2022-07-23 21:43:44,986] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:43:45,022] {logging_mixin.py:115} INFO - [2022-07-23 21:43:45,022] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:43:45,049] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.844 seconds
+[2022-07-23 21:44:45,724] {processor.py:153} INFO - Started process (PID=12063) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:44:45,734] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:44:45,735] {logging_mixin.py:115} INFO - [2022-07-23 21:44:45,735] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:44:46,597] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:44:46,643] {logging_mixin.py:115} INFO - [2022-07-23 21:44:46,641] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:44:46,687] {logging_mixin.py:115} INFO - [2022-07-23 21:44:46,687] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:44:46,719] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 1.000 seconds
+[2022-07-23 21:45:47,160] {processor.py:153} INFO - Started process (PID=12143) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:45:47,165] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:45:47,165] {logging_mixin.py:115} INFO - [2022-07-23 21:45:47,165] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:45:47,695] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:45:47,726] {logging_mixin.py:115} INFO - [2022-07-23 21:45:47,725] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:45:47,742] {logging_mixin.py:115} INFO - [2022-07-23 21:45:47,742] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:45:47,750] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.593 seconds
+[2022-07-23 21:45:52,801] {processor.py:153} INFO - Started process (PID=12145) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:45:52,802] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:45:52,802] {logging_mixin.py:115} INFO - [2022-07-23 21:45:52,802] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:45:52,988] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:45:53,007] {logging_mixin.py:115} INFO - [2022-07-23 21:45:53,006] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:45:53,023] {logging_mixin.py:115} INFO - [2022-07-23 21:45:53,023] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:45:53,035] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.244 seconds
+[2022-07-23 21:46:53,060] {processor.py:153} INFO - Started process (PID=12226) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:46:53,063] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:46:53,063] {logging_mixin.py:115} INFO - [2022-07-23 21:46:53,063] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:46:53,546] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:46:53,614] {logging_mixin.py:115} INFO - [2022-07-23 21:46:53,613] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:46:53,654] {logging_mixin.py:115} INFO - [2022-07-23 21:46:53,654] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:46:53,669] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.613 seconds
+[2022-07-23 21:47:54,508] {processor.py:153} INFO - Started process (PID=12299) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:47:54,510] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:47:54,519] {logging_mixin.py:115} INFO - [2022-07-23 21:47:54,513] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:47:55,944] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:47:56,066] {logging_mixin.py:115} INFO - [2022-07-23 21:47:56,061] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:47:56,133] {logging_mixin.py:115} INFO - [2022-07-23 21:47:56,133] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:47:56,159] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 1.657 seconds
+[2022-07-23 21:48:56,711] {processor.py:153} INFO - Started process (PID=12380) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:48:56,712] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:48:56,712] {logging_mixin.py:115} INFO - [2022-07-23 21:48:56,712] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:48:56,892] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:48:56,911] {logging_mixin.py:115} INFO - [2022-07-23 21:48:56,911] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:48:56,928] {logging_mixin.py:115} INFO - [2022-07-23 21:48:56,928] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:48:56,939] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.231 seconds
+[2022-07-23 21:49:57,157] {processor.py:153} INFO - Started process (PID=12470) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:49:57,157] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:49:57,158] {logging_mixin.py:115} INFO - [2022-07-23 21:49:57,158] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:49:57,634] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:49:57,694] {logging_mixin.py:115} INFO - [2022-07-23 21:49:57,689] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:49:57,741] {logging_mixin.py:115} INFO - [2022-07-23 21:49:57,741] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:49:57,760] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.607 seconds
+[2022-07-23 21:50:57,919] {processor.py:153} INFO - Started process (PID=12550) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:50:57,919] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:50:57,920] {logging_mixin.py:115} INFO - [2022-07-23 21:50:57,919] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:50:58,090] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:50:58,114] {logging_mixin.py:115} INFO - [2022-07-23 21:50:58,113] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:50:58,131] {logging_mixin.py:115} INFO - [2022-07-23 21:50:58,131] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:50:58,144] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.229 seconds
+[2022-07-23 21:51:58,493] {processor.py:153} INFO - Started process (PID=12632) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:51:58,498] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:51:58,498] {logging_mixin.py:115} INFO - [2022-07-23 21:51:58,498] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:51:58,885] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:51:58,923] {logging_mixin.py:115} INFO - [2022-07-23 21:51:58,922] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:51:58,956] {logging_mixin.py:115} INFO - [2022-07-23 21:51:58,956] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:51:58,974] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.488 seconds
+[2022-07-23 21:52:59,453] {processor.py:153} INFO - Started process (PID=12723) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:52:59,454] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:52:59,455] {logging_mixin.py:115} INFO - [2022-07-23 21:52:59,455] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:52:59,872] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:52:59,907] {logging_mixin.py:115} INFO - [2022-07-23 21:52:59,907] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:52:59,949] {logging_mixin.py:115} INFO - [2022-07-23 21:52:59,949] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:52:59,967] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.521 seconds
+[2022-07-23 21:54:00,730] {processor.py:153} INFO - Started process (PID=12803) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:54:00,734] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:54:00,734] {logging_mixin.py:115} INFO - [2022-07-23 21:54:00,734] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:54:01,166] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:54:01,240] {logging_mixin.py:115} INFO - [2022-07-23 21:54:01,239] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:54:01,274] {logging_mixin.py:115} INFO - [2022-07-23 21:54:01,273] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:54:01,287] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.569 seconds
+[2022-07-23 21:54:06,512] {processor.py:153} INFO - Started process (PID=12811) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:54:06,512] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:54:06,513] {logging_mixin.py:115} INFO - [2022-07-23 21:54:06,512] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:54:06,929] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:54:07,058] {logging_mixin.py:115} INFO - [2022-07-23 21:54:07,056] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:54:07,089] {logging_mixin.py:115} INFO - [2022-07-23 21:54:07,089] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:54:07,109] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.605 seconds
+[2022-07-23 21:55:07,591] {processor.py:153} INFO - Started process (PID=12892) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:55:07,598] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:55:07,599] {logging_mixin.py:115} INFO - [2022-07-23 21:55:07,599] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:55:08,070] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:55:08,109] {logging_mixin.py:115} INFO - [2022-07-23 21:55:08,108] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:55:08,134] {logging_mixin.py:115} INFO - [2022-07-23 21:55:08,133] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:55:08,143] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.560 seconds
+[2022-07-23 21:56:07,761] {processor.py:153} INFO - Started process (PID=12971) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:56:07,782] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:56:07,809] {logging_mixin.py:115} INFO - [2022-07-23 21:56:07,809] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:56:15,399] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:56:16,115] {logging_mixin.py:115} INFO - [2022-07-23 21:56:16,114] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:56:16,656] {logging_mixin.py:115} INFO - [2022-07-23 21:56:16,656] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:56:16,762] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 9.079 seconds
+[2022-07-23 21:57:16,925] {processor.py:153} INFO - Started process (PID=13056) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:57:16,928] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:57:16,929] {logging_mixin.py:115} INFO - [2022-07-23 21:57:16,929] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:57:17,247] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:57:17,313] {logging_mixin.py:115} INFO - [2022-07-23 21:57:17,312] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:57:17,366] {logging_mixin.py:115} INFO - [2022-07-23 21:57:17,366] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:57:17,384] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.462 seconds
+[2022-07-23 21:58:17,505] {processor.py:153} INFO - Started process (PID=13138) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:58:17,512] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:58:17,514] {logging_mixin.py:115} INFO - [2022-07-23 21:58:17,514] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:58:18,669] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:58:18,734] {logging_mixin.py:115} INFO - [2022-07-23 21:58:18,733] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:58:18,790] {logging_mixin.py:115} INFO - [2022-07-23 21:58:18,790] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:58:18,831] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 1.336 seconds
+[2022-07-23 21:59:19,563] {processor.py:153} INFO - Started process (PID=13220) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:59:19,564] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 21:59:19,565] {logging_mixin.py:115} INFO - [2022-07-23 21:59:19,565] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:59:19,940] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 21:59:19,959] {logging_mixin.py:115} INFO - [2022-07-23 21:59:19,958] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 21:59:19,975] {logging_mixin.py:115} INFO - [2022-07-23 21:59:19,975] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 21:59:19,983] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.429 seconds
+[2022-07-23 22:00:20,174] {processor.py:153} INFO - Started process (PID=13302) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:00:20,180] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:00:20,180] {logging_mixin.py:115} INFO - [2022-07-23 22:00:20,180] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:00:20,577] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:00:20,597] {logging_mixin.py:115} INFO - [2022-07-23 22:00:20,596] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:00:20,616] {logging_mixin.py:115} INFO - [2022-07-23 22:00:20,616] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:00:20,651] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.486 seconds
+[2022-07-23 22:01:20,768] {processor.py:153} INFO - Started process (PID=13390) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:01:20,777] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:01:20,777] {logging_mixin.py:115} INFO - [2022-07-23 22:01:20,777] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:01:21,221] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:01:21,240] {logging_mixin.py:115} INFO - [2022-07-23 22:01:21,239] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:01:21,255] {logging_mixin.py:115} INFO - [2022-07-23 22:01:21,255] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:01:21,265] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.513 seconds
+[2022-07-23 22:02:22,148] {processor.py:153} INFO - Started process (PID=13475) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:02:22,151] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:02:22,151] {logging_mixin.py:115} INFO - [2022-07-23 22:02:22,151] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:02:22,586] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:02:22,608] {logging_mixin.py:115} INFO - [2022-07-23 22:02:22,608] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:02:22,624] {logging_mixin.py:115} INFO - [2022-07-23 22:02:22,624] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:02:22,632] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.488 seconds
+[2022-07-23 22:03:23,219] {processor.py:153} INFO - Started process (PID=13558) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:03:23,240] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:03:23,240] {logging_mixin.py:115} INFO - [2022-07-23 22:03:23,240] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:03:23,939] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:03:24,039] {logging_mixin.py:115} INFO - [2022-07-23 22:03:24,038] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:03:24,078] {logging_mixin.py:115} INFO - [2022-07-23 22:03:24,078] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:03:24,095] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.898 seconds
+[2022-07-23 22:04:24,458] {processor.py:153} INFO - Started process (PID=13644) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:04:24,463] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:04:24,463] {logging_mixin.py:115} INFO - [2022-07-23 22:04:24,463] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:04:24,927] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:04:24,970] {logging_mixin.py:115} INFO - [2022-07-23 22:04:24,969] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:04:25,002] {logging_mixin.py:115} INFO - [2022-07-23 22:04:25,002] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:04:25,019] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.583 seconds
+[2022-07-23 22:05:25,107] {processor.py:153} INFO - Started process (PID=13734) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:05:25,109] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:05:25,109] {logging_mixin.py:115} INFO - [2022-07-23 22:05:25,109] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:05:25,418] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:05:25,438] {logging_mixin.py:115} INFO - [2022-07-23 22:05:25,437] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:05:25,453] {logging_mixin.py:115} INFO - [2022-07-23 22:05:25,453] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:05:25,462] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.362 seconds
+[2022-07-23 22:06:26,428] {processor.py:153} INFO - Started process (PID=13817) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:06:26,428] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:06:26,428] {logging_mixin.py:115} INFO - [2022-07-23 22:06:26,428] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:06:27,155] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:06:27,190] {logging_mixin.py:115} INFO - [2022-07-23 22:06:27,189] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:06:27,221] {logging_mixin.py:115} INFO - [2022-07-23 22:06:27,221] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:06:27,237] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.830 seconds
+[2022-07-23 22:07:27,835] {processor.py:153} INFO - Started process (PID=13901) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:07:27,837] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:07:27,838] {logging_mixin.py:115} INFO - [2022-07-23 22:07:27,838] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:07:28,272] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:07:28,313] {logging_mixin.py:115} INFO - [2022-07-23 22:07:28,312] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:07:28,346] {logging_mixin.py:115} INFO - [2022-07-23 22:07:28,346] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:07:28,361] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.532 seconds
+[2022-07-23 22:08:28,485] {processor.py:153} INFO - Started process (PID=13984) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:08:28,491] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:08:28,492] {logging_mixin.py:115} INFO - [2022-07-23 22:08:28,492] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:08:28,929] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:08:28,963] {logging_mixin.py:115} INFO - [2022-07-23 22:08:28,963] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:08:28,996] {logging_mixin.py:115} INFO - [2022-07-23 22:08:28,995] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:08:29,006] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.524 seconds
+[2022-07-23 22:09:29,431] {processor.py:153} INFO - Started process (PID=14070) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:09:29,437] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:09:29,437] {logging_mixin.py:115} INFO - [2022-07-23 22:09:29,437] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:09:30,598] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:09:30,650] {logging_mixin.py:115} INFO - [2022-07-23 22:09:30,649] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:09:30,695] {logging_mixin.py:115} INFO - [2022-07-23 22:09:30,695] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:09:30,726] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 1.322 seconds
+[2022-07-23 22:10:30,785] {processor.py:153} INFO - Started process (PID=14153) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:10:30,791] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:10:30,792] {logging_mixin.py:115} INFO - [2022-07-23 22:10:30,792] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:10:31,390] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:10:31,472] {logging_mixin.py:115} INFO - [2022-07-23 22:10:31,471] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:10:31,539] {logging_mixin.py:115} INFO - [2022-07-23 22:10:31,539] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:10:31,569] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.795 seconds
+[2022-07-23 22:11:31,799] {processor.py:153} INFO - Started process (PID=14235) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:11:31,807] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:11:31,808] {logging_mixin.py:115} INFO - [2022-07-23 22:11:31,808] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:11:34,222] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:11:34,417] {logging_mixin.py:115} INFO - [2022-07-23 22:11:34,416] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:11:34,605] {logging_mixin.py:115} INFO - [2022-07-23 22:11:34,605] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:11:34,693] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 2.927 seconds
+[2022-07-23 22:12:35,520] {processor.py:153} INFO - Started process (PID=14312) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:12:35,525] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:12:35,525] {logging_mixin.py:115} INFO - [2022-07-23 22:12:35,525] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:12:35,834] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:12:35,853] {logging_mixin.py:115} INFO - [2022-07-23 22:12:35,852] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:12:35,870] {logging_mixin.py:115} INFO - [2022-07-23 22:12:35,870] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:12:35,879] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.364 seconds
+[2022-07-23 22:13:36,243] {processor.py:153} INFO - Started process (PID=14396) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:13:36,251] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:13:36,252] {logging_mixin.py:115} INFO - [2022-07-23 22:13:36,252] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:13:37,910] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:13:38,046] {logging_mixin.py:115} INFO - [2022-07-23 22:13:38,045] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:13:38,174] {logging_mixin.py:115} INFO - [2022-07-23 22:13:38,174] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:13:38,233] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 2.005 seconds
+[2022-07-23 22:14:38,435] {processor.py:153} INFO - Started process (PID=14489) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:14:38,436] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:14:38,437] {logging_mixin.py:115} INFO - [2022-07-23 22:14:38,436] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:14:39,213] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:14:39,255] {logging_mixin.py:115} INFO - [2022-07-23 22:14:39,250] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:14:39,293] {logging_mixin.py:115} INFO - [2022-07-23 22:14:39,293] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:14:39,310] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.889 seconds
+[2022-07-23 22:15:39,963] {processor.py:153} INFO - Started process (PID=14575) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:15:39,970] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:15:39,970] {logging_mixin.py:115} INFO - [2022-07-23 22:15:39,970] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:15:41,257] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:15:41,371] {logging_mixin.py:115} INFO - [2022-07-23 22:15:41,368] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:15:41,431] {logging_mixin.py:115} INFO - [2022-07-23 22:15:41,431] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:15:41,448] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 1.526 seconds
+[2022-07-23 22:16:42,236] {processor.py:153} INFO - Started process (PID=14652) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:16:42,240] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:16:42,241] {logging_mixin.py:115} INFO - [2022-07-23 22:16:42,241] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:16:42,600] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:16:42,637] {logging_mixin.py:115} INFO - [2022-07-23 22:16:42,636] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:16:42,680] {logging_mixin.py:115} INFO - [2022-07-23 22:16:42,679] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:16:42,699] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.469 seconds
+[2022-07-23 22:17:43,527] {processor.py:153} INFO - Started process (PID=14728) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:17:43,531] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:17:43,531] {logging_mixin.py:115} INFO - [2022-07-23 22:17:43,531] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:17:43,948] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:17:43,970] {logging_mixin.py:115} INFO - [2022-07-23 22:17:43,969] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:17:43,985] {logging_mixin.py:115} INFO - [2022-07-23 22:17:43,985] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:17:43,993] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.469 seconds
+[2022-07-23 22:18:44,273] {processor.py:153} INFO - Started process (PID=14803) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:18:44,282] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:18:44,282] {logging_mixin.py:115} INFO - [2022-07-23 22:18:44,282] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:18:44,675] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:18:44,716] {logging_mixin.py:115} INFO - [2022-07-23 22:18:44,715] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:18:44,736] {logging_mixin.py:115} INFO - [2022-07-23 22:18:44,736] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:18:44,746] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.476 seconds
+[2022-07-23 22:19:45,113] {processor.py:153} INFO - Started process (PID=14886) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:19:45,116] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:19:45,116] {logging_mixin.py:115} INFO - [2022-07-23 22:19:45,116] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:19:45,313] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:19:45,332] {logging_mixin.py:115} INFO - [2022-07-23 22:19:45,332] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:19:45,348] {logging_mixin.py:115} INFO - [2022-07-23 22:19:45,348] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:19:45,359] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.249 seconds
+[2022-07-23 22:20:45,780] {processor.py:153} INFO - Started process (PID=14960) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:20:45,782] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:20:45,782] {logging_mixin.py:115} INFO - [2022-07-23 22:20:45,782] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:20:46,278] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:20:46,298] {logging_mixin.py:115} INFO - [2022-07-23 22:20:46,297] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:20:46,314] {logging_mixin.py:115} INFO - [2022-07-23 22:20:46,314] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:20:46,322] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.545 seconds
+[2022-07-23 22:21:47,769] {processor.py:153} INFO - Started process (PID=15042) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:21:47,931] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:21:47,932] {logging_mixin.py:115} INFO - [2022-07-23 22:21:47,932] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:21:54,416] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:21:54,534] {logging_mixin.py:115} INFO - [2022-07-23 22:21:54,533] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:21:54,650] {logging_mixin.py:115} INFO - [2022-07-23 22:21:54,650] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:21:54,781] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 7.016 seconds
+[2022-07-23 22:22:55,141] {processor.py:153} INFO - Started process (PID=15121) to work on /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:22:55,147] {processor.py:641} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2022-07-23 22:22:55,148] {logging_mixin.py:115} INFO - [2022-07-23 22:22:55,148] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:22:55,948] {processor.py:651} INFO - DAG(s) dict_keys(['pipeline_dag']) retrieved from /opt/airflow/dags/pipeline_dag.py
+[2022-07-23 22:22:55,992] {logging_mixin.py:115} INFO - [2022-07-23 22:22:55,991] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-23 22:22:56,034] {logging_mixin.py:115} INFO - [2022-07-23 22:22:56,034] {dag.py:2972} INFO - Setting next_dagrun for pipeline_dag to None, run_after=None
+[2022-07-23 22:22:56,051] {processor.py:161} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.913 seconds
