@@ -1,7 +1,7 @@
-# pull the git repo
+#### pull the git repo
 `$ git pull <repository>`
 
-# go to db folder
+#### go to db folder
 `$ cd postgres-db`
 `$ cd postgres-src`
 # pull a postgres docker image
@@ -11,49 +11,49 @@
 `$ sudo docker build -t postgres-src ./`
 #### This will create Source database with a table 'sales' with data populated (see file postgres_source.sql)
 
-# start source db in a container (postgres-src-container)
+#### start source db in a container (postgres-src-container)
 `$ sudo docker run -d --name postgres-src-container -p 5432:5432 postgres-src`
 
-# similar steps to create target postgres database
+#### similar steps to create target postgres database
 
 `$ cd postgres-trgt`
 
-# pull a postgres docker image
+#### pull a postgres docker image
 `$ sudo docker pull postgres`
 
-# build the postgres docker image
+#### build the postgres docker image
 `$ sudo docker build -t postgres-trgt ./`
 
-# start target db in a container (postgres-trgt-container)
+#### start target db in a container (postgres-trgt-container)
 `$ sudo docker run -d --name postgres-trgt-container -p 5433:5432 postgres-trgt`
 
-# go back to project home directory
+#### go back to project home directory
 
 `$ cd <project home>`
 
-# go to airflow folder
+#### go to airflow folder
 `$ cd airflow`
 
-# get airlfow docker compose file
+#### get airlfow docker compose file
 `$ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.3.3/docker-compose.yaml'`
 
-# create required folders
+#### create required folders
 `$ mkdir -p ./dags ./logs ./plugins`
 
-# initialize airflow database
+#### initialize airflow database
 `$ sudo docker-compose -f airflow-docker-compose.yaml up airflow-init`
 
-# start airflow
+#### start airflow
 `$ sudo docker-compose -f airflow-docker-compose.yaml up -d`
 
-# now airflow web ui can be accessed at localhost:5884
-# insstall required python packages
+#### now airflow web ui can be accessed at localhost:5884
+#### insstall required python packages
 `$ pip install -r requirements.txt`
 
-# go to dags folder
+#### go to dags folder
 `$ cd /dags`
 
-# create sample dag with following content -file location (/airflow/dags/pipeline_dag.py)
+#### create sample dag with following content -file location (/airflow/dags/pipeline_dag.py)
 `$ sudo nano pipeline_dag.py`
 
 ```python
@@ -149,5 +149,5 @@ with dag:
 
     run_etl_task >> show_data_from_target
 ```
-# Now this pipeline_dag.py will be available at web ui.
-# This file will Extract data from source db, Transform and Load into Target database.
+#### Now this pipeline_dag.py will be available at web ui.
+#### This file will Extract data from source db, Transform and Load into Target database.
