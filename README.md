@@ -4,10 +4,10 @@
 #### go to db folder
 `$ cd postgres-db`
 `$ cd postgres-src`
-# pull a postgres docker image
+#### pull a postgres docker image
 `$ sudo docker pull postgres`
 
-# build the postgres docker image
+#### build the postgres docker image
 `$ sudo docker build -t postgres-src ./`
 #### This will create Source database with a table 'sales' with data populated (see file postgres_source.sql)
 
