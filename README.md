@@ -1,56 +1,56 @@
-#pull the git repo
+# pull the git repo
 `$ git pull <repository>`
 
-#go to db folder
+# go to db folder
 `$ cd postgres-db`
 `$ cd postgres-src`
-#pull a postgres docker image
+# pull a postgres docker image
 `$ sudo docker pull postgres`
 
-#build the postgres docker image
+# build the postgres docker image
 `$ sudo docker build -t postgres-src ./`
-####This will create Source database with a table 'sales' with data populated (see file postgres_source.sql)
+#### This will create Source database with a table 'sales' with data populated (see file postgres_source.sql)
 
-#start source db in a container (postgres-src-container)
+# start source db in a container (postgres-src-container)
 `$ sudo docker run -d --name postgres-src-container -p 5432:5432 postgres-src`
 
-#similar steps to create target postgres database
+# similar steps to create target postgres database
 
 `$ cd postgres-trgt`
 
-#pull a postgres docker image
+# pull a postgres docker image
 `$ sudo docker pull postgres`
 
-#build the postgres docker image
+# build the postgres docker image
 `$ sudo docker build -t postgres-trgt ./`
 
-#start target db in a container (postgres-trgt-container)
+# start target db in a container (postgres-trgt-container)
 `$ sudo docker run -d --name postgres-trgt-container -p 5433:5432 postgres-trgt`
 
-#go back to project home directory
+# go back to project home directory
 
 `$ cd <project home>`
 
-#get airlfow docker compose file
+# get airlfow docker compose file
 `$ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.3.3/docker-compose.yaml'`
 
-#create required folders
+# create required folders
 `$ mkdir -p ./dags ./logs ./plugins`
 
-#initialize airflow database
+# initialize airflow database
 `$ sudo docker-compose -f airflow-docker-compose.yaml up airflow-init`
 
-#start airflow
+# start airflow
 `$ sudo docker-compose -f airflow-docker-compose.yaml up -d`
 
-#now airflow web ui can be accessed at localhost:5884
-#insstall required python packages
+# now airflow web ui can be accessed at localhost:5884
+# insstall required python packages
 `$ pip install -r requirements.txt`
 
-#go to dags folder
+# go to dags folder
 `$ cd /dags`
 
-#create sample dag with following content -file location (/airflow/dags/pipeline_dag.py)
+# create sample dag with following content -file location (/airflow/dags/pipeline_dag.py)
 `$ sudo nano pipeline_dag.py`
 
 ```python
@@ -67,20 +67,6 @@ from dotenv import dotenv_values from sqlalchemy import create_engine, inspect
 args = {"owner": "Airflow", "start_date": days_ago(1)}
 
 dag = DAG(dag_id="pipeline_dag", default_args=args, schedule_interval=None)
-
-def logger(func):
-	from datetime import datetime, timezone
-
-@wraps(func)
-def wrapper(*args, **kwargs):
-	called_at = datetime.now(timezone.utc)
-	print(f">>> Running {func.__name__!r}
-	function. Logged at {called_at}")
-	to_execute = func(*args, **kwargs)
-	print(f">>> Function: {func.__name__!r} executed. Logged at {called_at}")
-	return to_execute
-	return wrapper
-
 
 CONFIG = dotenv_values(".env")
 if not CONFIG:
@@ -100,7 +86,6 @@ trgt_host = CONFIG['POSTGRES_TRGT_HOST']
 trgt_port = CONFIG["POSTGRES_TRGT_PORT"]
 trgt_db = CONFIG["POSTGRES_TRGT_DB"]
 
-@logger
 def connect_db(user, pwd, host, port, db):
 	print("Connecting to DB")
 	connection_uri = "postgresql+psycopg2://{}:{}@{}:{}/{}".format(user, pwd, host, port,db )
@@ -108,28 +93,24 @@ def connect_db(user, pwd, host, port, db):
 	engine.connect()
 	return engine
 
-@logger
 def extract(source_table):
 	engine = connect_db(src_user, src_pwd, src_host, src_port, src_db)
 	print(f"Reading data from {source_table}")
 	df = pd.read_sql(f"SELECT * FROM {source_table}", engine)
 	return df
 
-@logger
 def transform(df):
 	# transformation print("Transforming data")
 	df_transform = df.copy()
 	df_transform["sales_value"] = df["sales_value"]*3
 	return df_transform
 
-@logger
 def load_to_db(df, target_table):
 	engine = connect_db(trgt_user, trgt_pwd, trgt_host, trgt_port, trgt_db)
 	print(f"Loading dataframe to DB on table: {target_table}")
 	df.to_sql(target_table, engine, if_exists="replace")
 	engine.dispose()
 
-@logger
 def show_data():
 	engine = connect_db(trgt_user, trgt_pwd, trgt_host, trgt_port, trgt_db)
 	print("Showing data from target db:")
@@ -137,7 +118,6 @@ def show_data():
 	print(df)
 	engine.dispose()
 
-@logger
 def etl():
 	df = extract(source_table)
 	print("Let's have a look how the source look like:")
@@ -154,5 +134,5 @@ def etl():
 
 run_etl_task >> show_data_from_target
 ```
-#Now this pipeline_dag.py will be available at web ui.
-#This file will Extract data from source db, Transform and Load into Target database.
+# Now this pipeline_dag.py will be available at web ui.
+# This file will Extract data from source db, Transform and Load into Target database.
