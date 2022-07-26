@@ -31,6 +31,9 @@
 
 `$ cd <project home>`
 
+# go to airflow folder
+`$ cd airflow`
+
 # get airlfow docker compose file
 `$ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.3.3/docker-compose.yaml'`
 
