@@ -10,6 +10,7 @@
 #### build the postgres docker image
 `$ sudo docker build -t postgres-src ./`
 #### This will create Source database with a table 'sales' with data populated (see file postgres_source.sql)
+#### All DB credentials are in /airflow/dags/.env file
 
 #### start source db in a container (postgres-src-container)
 `$ sudo docker run -d --name postgres-src-container -p 5432:5432 postgres-src`
